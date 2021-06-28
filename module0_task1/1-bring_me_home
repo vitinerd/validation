@@ -1,3 +1,2 @@
-myhome=$(whoami)
-cd /$myhome
+cd /root
 
