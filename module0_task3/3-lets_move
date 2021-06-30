@@ -1,2 +1,1 @@
-export LC_ALL=C
-ls *[A-Z]* | xargs -i mv {} /tmp/u
+mv [[:upper:]]* /tmp/u
