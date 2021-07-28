@@ -8,8 +8,8 @@ ifdef $(and POST_NAME, POST_TITLE)
 	@sed -i "s/${POST_NAME}/${POST_TITLE}/gi" "./content/posts/${POST_NAME}.md"
 endif
 help:	## Displays the help information
-	@echo "build: To build the Go-Hugo website in /dist directory"
-	@echo "clean: To remove the Go-Hugo website from the /dist directory preserving all content"
-	@echo "post: To create a new post for existing website"
-	@echo "help: Displays the help information"
+	@echo "build : To build the Go-Hugo website in /dist directory"
+	@echo "clean : To remove the Go-Hugo website from the /dist directory preserving all content"
+	@echo "post : To create a new post for existing website"
+	@echo "help : Displays the help information"
 
