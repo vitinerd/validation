@@ -12,7 +12,6 @@ clean:  ## To remove the awesome binary and its log file
 	@rm go.sum
 test:   ## To test behavior of website awesome
 	@curl http://localhost:9999/
-	@echo "NOAPP"
 	@curl http://localhost:9999/health	
 help:	## Displays the help information
 	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v frep | sed -e 's/\\$$//' | sed -e 's/##//'
