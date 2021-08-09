@@ -6,6 +6,7 @@ run: 	## To run the webserver in the background
 stop: 	## To stop the server if running
 	@pkill awesome-api
 clean:  ## To remove the awesome binary and its log file
+	@pkill awesome-api
 	@rm awesome-api
 	@rm awesome.log
 	@rm go.mod
